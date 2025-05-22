@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Los Pasteles de Oyito</title>
+  <style>
+    body {
+      background-color: #fffafc;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #6a1b9a;
+      font-size: 28px;
+    }
+
+    h2 {
+      font-style: italic;
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    .pastel-img {
+      width: 600px;
+      max-width: 100%;
+      border: 3px solid #ce93d8;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      width: 300px;
+      border: 2px solid #ba68c8;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #ab47bc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #8e24aa;
+    }
+
+    p {
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>LOS PASTELES DE OYITO</h1>
+<h2><em>100% CASEROS Y PREPARADOS ARTESANALMENTE.</em></h2>
+
+  <img src="IMAGENES/Menú_pasteleria.jpg" alt="Menú de pasteles" width="100" height="700" class="pastel-img">
+
+  <p>Elige tu pastel favorito y regístralo en la página con tu nombre</p>
+  <form name="form1" method="post" action="">
+    <p>
+      <label for="pasteles">NOMBRE :)</label>
+      <input type="text" name="pasteles" id="pasteles">
+    </p>
+    <p>
+      <label for="Menu">ELIGE TU PASTEL</label>
+      <input type="text" name="Menu" id="Menu">
+    </p>
+  </form>
+  <p>.</p>
+
+  <form onsubmit="alert('¡Gracias por registrar tu pastel!'); return false;">
+  <input type="submit" value="Registrar">
+  </form>
+
+</body>
+</html>

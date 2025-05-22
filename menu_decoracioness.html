@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Decoraciones para Fiestas</title>
+  <style>
+    body {
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #C8D7F2;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+    }
+    h1 {
+      color: #c2185b;
+    }
+    .decoracion {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 12px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .descripcion {
+      margin: 10px 0;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #c2185b;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #880e4f;
+    }
+    .precio {
+      margin-top: 10px;
+      font-weight: bold;
+      display: none;
+      color: #4caf50;
+    }
+  body,td,th {
+	font-family: "Segoe UI", sans-serif;
+}
+  </style>
+</head>
+<body>
+<h1>MENÚ DE DECORACIONES PARA LAS FIESTAS</h1>
+
+  <div class="decoracion">
+
+    <div class="card">
+      <div align="center"><img src="IMAGENES/decoracion_romantica.jpeg" alt="Globos coloridos">
+      </div>
+      <p align="center" class="descripcion">Decoración romantica con globos de colores y fondo brillante, ideal para los enamorados.</p>
+      <div align="center">
+        <button onclick="document.getElementById('precio1').style.display = 'block'">Ver precio</button>
+      </div>
+      <p align="center" class="precio" id="precio1">$600 MXN (depende del personaje)</p>
+    </div>
+
+    <div class="card">
+      <div align="center"><img src="IMAGENES/Decoración_cumpleaños.jpeg" alt="Decoración Baby Shower">
+      </div>
+      <p align="center" class="descripcion">Decoración para baby shower con tonos pastel, globos y temática tierna.</p>
+      <div align="center">
+        <button onclick="document.getElementById('precio2').style.display = 'block'">Ver precio</button>
+      </div>
+      <p align="center" class="precio" id="precio2">$550 MXN</p>
+    </div>
+
+    <div class="card">
+      <div align="center"><img src="IMAGENES/decoracion_miraculos.jpeg" alt="Decoración Superhéroes"></div>
+      <p align="center" class="descripcion">Fiesta temática de superhéroes con fondo especial, globos y accesorios.</p>
+      <div align="center">
+        <button onclick="document.getElementById('precio3').style.display = 'block'">Ver precio</button>
+      </div>
+      <p align="center" class="precio" id="precio3">$750 MXN</p>
+    </div>
+
+    <div class="card">
+      <div align="center"><img src="IMAGENES/decoracion_princess.jpeg" alt="Decoración Romántica">
+      </div>
+      <p align="center" class="descripcion">Decoración divertida y colorida, para que se sienta toda una princesa</p>
+      <div align="center">
+        <button onclick="document.getElementById('precio4').style.display = 'block'">Ver precio</button>
+      </div>
+      <p align="center" class="precio" id="precio4">$550 MXN</p>
+    </div>
+
+    <div class="card">
+      <div align="center"><img src="IMAGENES/decoracion_roja.jpeg" alt="Fiesta tropical">
+      </div>
+      <p align="center" class="descripcion">Decoración kitty con globos, cintas y colores vivos, ideal para verano.</p>
+      <div align="center">
+        <button onclick="document.getElementById('precio5').style.display = 'block'">Ver precio</button>
+      </div>
+      <p align="center" class="precio" id="precio5">$700 MXN</p>
+    </div>
+
+    <div class="card">
+      <div align="center"><img src="IMAGENES/bts.jpeg" alt="Decoración de Princesas">
+      </div>
+      <p align="center" class="descripcion">Fiesta mágica con decoración de BTS, ideal para las ARMYS.</p>
+      <div align="center">
+        <button onclick="document.getElementById('precio6').style.display = 'block'">Ver precio</button>
+      </div>
+      <p align="center" class="precio" id="precio6">$650 MXN</p>
+    </div>
+
+    <div class="card">
+      <div align="center"><img src="IMAGENES/decoracion_dorada.jpeg" alt="Cumpleaños adulto elegante">
+      </div>
+      <p align="center" class="descripcion">Decoración con estilo elegante para adultos: dorado, negro y detalles modernos.</p>
+      <div align="center">
+        <button onclick="document.getElementById('precio7').style.display = 'block'">Ver precio</button>
+      </div>
+      <p align="center" class="precio" id="precio7">$1000 MXN</p>
+    </div>
+
+  </div>
+</body>
+</html>

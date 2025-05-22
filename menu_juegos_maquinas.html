@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juegos Interactivos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contenedor {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+	color: #660099;
+	font-size: 32px;
+	margin-bottom: 40px;
+	text-shadow: 1px 1px #999;
+    }
+
+    .juegos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .juego {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .juego:hover {
+      transform: scale(1.03);
+    }
+
+    .juego img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .titulo {
+      font-weight: bold;
+      color: #023e8a;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .descripcion {
+	color: #000;
+	font-size: 15px;
+	margin-top: 5px;
+	font-family: "Courier New", Courier, monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>JUEGOS INTERACTIVOS</h1>
+
+    <div class="juegos-grid">
+      <div class="juego">
+        <img src="IMAGENES/boxeo.jpeg" alt="Maquina de boxeo">
+        <div class="titulo">MÁQUINA DE BOXEO</div>
+        <div class="descripcion"><strong>Precio:$400- Toma fuerza y reta a tus amigos. Golpea y demuestra quién es el más fuerte del grupo.</strong></div>
+      </div>
+
+      <div class="juego">
+        <img src="IMAGENES/peluches.jpeg" alt="Mecedora">
+        <div class="titulo">MAQUINA DE PELUCHES</div>
+        <div class="descripcion"><strong>Precio: $550- Ideal para los más pequeños. Diviertete jugando con nuestra maquina de garra hasta logar tu objetivo, todos ganan.</strong></div>
+      </div>
+
+      <div class="juego">
+        <img src="IMAGENES/futbolito.jpeg" alt="Futbolito">
+        <div class="titulo">FUTBOLITO</div>
+        <div class="descripcion"><strong>Precio: $450- Compite con tus amigos en este clásico juego de mesa. ¡No dejes que te anoten!</strong></div>
+      </div>
+
+      <div class="juego">
+        <img src="IMAGENES/maquina1.jpeg" alt="Simulador">
+        <div class="titulo">SIMULADOR VIRTUAL</div>
+        <div class="descripcion"><strong>Precio: $550- Es ideal para los mas peques de la casa, cuenta con varios juegos.</strong></div>
+      </div>
+
+      <div class="juego">
+        <img src="IMAGENES/juego_dardos.jpeg" alt="Tiro al blanco">
+        <div class="titulo">TIRO AL BLANCO</div>
+        <div class="descripcion"><strong>Precio: $150- Demuestra tu puntería y gana premios. Apto para todas las edades. se renta las 24 horas.</strong></div>
+      </div>
+
+      <div class="juego">
+        <img src="IMAGENES/maquina2.jpeg" alt="Moto eléctrica">
+        <div class="titulo">MOTO INFANTIL</div>
+        <div class="descripcion"><strong>Precio: $200 cada una- Diversión motorizada para niños pequeños. Ideal para exteriores seguros.</strong></div>
+      </div>
+
+      <!-- Juego extra 1 -->
+      <div class="juego">
+        <img src="IMAGENES/canastas.jpeg" alt="Canasta de basquet">
+        <div class="titulo">CANASTA DE BASQUET</div>
+        <div class="descripcion"><strong>Precio: $450- Encesta la mayor cantidad de pelotas en tiempo récord. ¡Compite con tus amigos!</strong></div></div>
+
+      <!-- Juego extra 2 -->
+      <div class="juego">
+        <img src="IMAGENES/caballos.jpeg" alt="Twister gigante">
+        <div class="titulo">SIMULADOR PARA LOS PEQUEÑOS</div>
+        <div class="descripcion"><strong>Precio: $600- Nuestro juego virtual te ofrece la mayor diversión, ideal para los amantes de los Caballitos.</strong></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

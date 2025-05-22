@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Candy Bar</title>
+  <style>
+    body {
+      background-color: #fff8f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #e91e63;
+      margin-bottom: 30px;
+    }
+
+    .grid-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      width: 220px;
+      border: 3px solid #ff69b4;
+      border-radius: 15px;
+      background-color: #fff;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 2px solid #e91e63;
+      margin-bottom: 15px;
+    }
+
+    .description {
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #333;
+    }
+
+    .price-button {
+      background-color: #e91e63;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+
+    .price-button:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CANDY BAR</h1>
+  <p>LOS MEJORES DULCES Y DE MEJOR CALIDAD QUE EN LAS TIENDAS</p>
+
+  <div class="grid-container">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="IMAGENES/candybar_1.jpeg" alt="Candy Bar 1">
+      <div class="description">Candy Bar Clásico</div>
+      <button class="price-button" onclick="alert('Precio: $500 MXN')">VER PRECIO</button>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="IMAGENES/candybar_gomitas.jpeg" alt="Candy Bar 2">
+      <div class="description">Candy Bar Temático Infantil</div>
+      <button class="price-button" onclick="alert('Precio: $600 MXN')">VER PRECIO</button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="IMAGENES/decoracion_pastel.jpeg" alt="Candy Bar 3">
+      <div class="description">Candy Bar Elegante</div>
+      <button class="price-button" onclick="alert('Precio: $500 MXN')">VER PRECIO</button>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <img src="IMAGENES/decoracion_kiut.jpeg" alt="Candy Bar 4">
+      <div class="description">Candy Bar Premiun</div>
+      <button class="price-button" onclick="alert('Precio: $300 MXN')">VER PRECIO</button>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card">
+      <img src="IMAGENES/candybar_rosa.jpeg" alt="Candy Bar 5">
+      <div class="description">Candy Bar Premium, DULCES A ESCOJER</div>
+      <button class="price-button" onclick="alert('Precio: $450 MXN')">VER PRECIO</button>
+    </div>
+  </div>
+
+</body>
+</html>
